@@ -35,36 +35,34 @@ h5,
 h6 {
   margin: 0;
 }
-
 ul {
   margin: 0;
   padding-left: 0;
 }
-
 .btn {
   cursor: pointer;
   display: block;
 }
-
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
 address {
   font-style: normal;
 }
-
 img {
   display: block;
   min-width: 100%;
   height: auto;
 }
-
 body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
-
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
   display: block;
@@ -74,7 +72,6 @@ body {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -83,9 +80,7 @@ body {
   margin-right: auto;
   /*outline: 2px solid red;*/
 }
-
 .section {
-  width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -162,6 +157,7 @@ body {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1600px;
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../img/hero-bg.jpg);
@@ -193,10 +189,6 @@ body {
   border: 1px solid transparent;
   border-radius: 4px;
   margin: 0 auto;
-}
-.btn:hover,
-.btn:focus {
-  background-color: #188ce8;
 }
 
 /*-----------ADVANTAGES------------*/
@@ -370,7 +362,6 @@ body {
 /*-----------Footer------------*/
 
 .footer {
-  width: 1600px;
   color: var(--primary-white-color);
   background-color: var(--hero-footer-color);
   padding-top: 60px;
@@ -378,6 +369,7 @@ body {
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 .footer-contacts {
   margin-right: 70px;
@@ -481,7 +473,7 @@ body {
   background-color: var(--primary-white-color);
   width: calc((100%-60)) / 3;
 }
-.portfolio-list-item:hover {
+.portfolio-list-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
