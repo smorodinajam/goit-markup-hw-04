@@ -275,7 +275,7 @@ body {
   gap: var(--main-gap);
 }
 .team-item {
-  width: calc((100%-90) / 4);
+  width: calc((100%-90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -342,7 +342,7 @@ body {
   gap: var(--main-gap);
 }
 .clients-item {
-  width: calc((100%-150) / 6);
+  width: calc((100%-150px) / 6);
 }
 .clients-link {
   height: 92px;
@@ -474,7 +474,7 @@ body {
 }
 .portfolio-list-item {
   background-color: var(--primary-white-color);
-  width: calc((100%-60)) / 3;
+  width: calc((100%-60px) / 3);
 }
 .portfolio-list-link:hover,
 .portfolio-list-link:focus {
