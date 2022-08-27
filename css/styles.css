@@ -474,7 +474,7 @@ body {
 }
 .portfolio-list-item {
   background-color: var(--primary-white-color);
-  width: calc((100%-60px) / 3);
+  flex-basis: calc((100%-90) / 4);
 }
 .portfolio-list-link:hover,
 .portfolio-list-link:focus {
